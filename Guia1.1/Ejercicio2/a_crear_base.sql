@@ -1,0 +1,7 @@
+USE master;
+GO
+
+DROP DATABASE IF EXISTS Guia1_1_Ejercicio2_DB;
+GO
+
+CREATE DATABASE Guia1_1_Ejercicio2_DB;

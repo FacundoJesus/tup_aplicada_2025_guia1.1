@@ -1,0 +1,11 @@
+--DDL Lenguaje de definicion de Datos--
+USE Guia1_1_Ejercicio1_DB;
+GO
+
+CREATE TABLE Alumnos
+(
+Id INT PRIMARY KEY IDENTITY (1,1),
+LU INT NOT NULL UNIQUE,
+Nombre NVARCHAR(100) NOT NULL,
+Nota DECIMAL(18,2) NOT NULL DEFAULT 0
+);
